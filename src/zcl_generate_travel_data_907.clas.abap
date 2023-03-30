@@ -36,6 +36,7 @@ CLASS ZCL_GENERATE_TRAVEL_DATA_907 IMPLEMENTATION.
 
 *   output the result as a console message
     out->write( |{ sy-dbcnt } travel entries inserted successfully!| ).
+    "test
 
   ENDMETHOD.
 ENDCLASS.
